@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Garik and Marieta Wedding//AM
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Yerevan
+LAST-MODIFIED:20261117T120000Z
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0400
+TZOFFSETTO:+0400
+TZNAME:AMT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:garik-marieta-wedding-2027@hyoor.am
+DTSTAMP:20261117T120000Z
+DTSTART;TZID=Asia/Yerevan:20270115T090000
+DTEND;TZID=Asia/Yerevan:20270115T235900
+SUMMARY:Գարիկ և Մարիետա — Հարսանիք
+DESCRIPTION:09:00 — Փեսայի տուն (Սարուխան\, Վ. Սարգսյան 3)\n11:00 — Հարսի տուն (Ղուկասավան\, 13-րդ փողոց\, 12-րդ տուն)\n14:30 — Պսակադրություն (Աբովյանի ՍԲ. ՀՈՎՀԱՆՆԵՍ ՄԿՐՏԻՉ եկեղեցի)\n17:00 — Խնջույք (Գավառ «ԲԱՅԱԶԵՏ ՀՈԼ»)
+LOCATION:Աբովյանի Սբ. Հովհաննես Մկրտիչ եկեղեցի / Գավառ «Բայազետ Հոլ»
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Գարիկի և Մարիետայի հարսանիքը վաղն է!
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Գարիկի և Մարիետայի հարսանիքը շուտով կսկսվի!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
